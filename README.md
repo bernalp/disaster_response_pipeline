@@ -2,14 +2,9 @@
 # Disaster Response Pipeline Project
 
 ### Introduction:
-This project basically building an interface where you can enter a disaster message, and the system will automatically figure out what type of message it is. This will help in provide the right response and actions during times of disaster.
+The project basically building an interface where you can enter a disaster message, and the system will automatically figure out what type of message it is. This will help in provide the right response and actions during times of disaster. This project is part of the Data Science Nanodegree Program by Udacity, in collaboration with Figure Eight. Dataset are combination tweets and messages from real-life disaster situations.
 
-This project is part of the Data Science Nanodegree Program by Udacity, in collaboration with Figure Eight. Dataset are combination tweets and messages from real-life disaster situations.
-
-By using machine learning techniques, we can analyze and categorize the incoming messages quite fast. This means we can respond to disasters more efficiently and quickly. Pretty cool, right?
-
-I'll guide you through the whole process of setting up the project. It cover things like load the dataset, train the machine learning model, and run the web interface. Let's get started!
-
+By using machine learning techniques, we can analyze and categorize the incoming messages quite fast. This means we can respond to disasters more efficiently and quickly. I'll guide you through the whole process of setting up the project. It's cover things like load the dataset, train the machine learning model, and run the web interface. Let's get started!
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
