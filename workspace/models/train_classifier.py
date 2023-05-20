@@ -30,7 +30,7 @@ def load_data(file_path):
     y (pandas DataFrame): The targets (all columns except message) of the loaded data.
     """
     # Load the data from the file into a pandas DataFrame
-    df = pd.read_csv(file_path='messages_categories.csv')
+    df = pd.read_csv(file_path)
 
     # Split the data into features (X) and targets (y)
     X = df['message']
@@ -53,7 +53,21 @@ def display_results(cv, y_test, y_pred):
     print("Labels:", labels)
     print("Accuracy:", accuracy)
     print("\nBest Parameters:", cv.best_params_)
-    
+
+
+def tokenize(text):
+    """
+    Tokenize the input text into individual words.
+
+    Args:
+    text (str): The input text to be tokenized.
+
+    Returns:
+    list: A list of tokens (individual words) extracted from the input text.
+    """
+    return word_tokenize(text)
+
+
 def build_model():
     """
     Build and return a GridSearchCV object using a pipeline that preprocesses text data and fits a random forest 
@@ -87,6 +101,9 @@ def main():
 
     # Prompt the user for the desired database name
     database_name = input("Enter the desired name for the database file: ")
+
+    # Load the data into X and y
+    X, y = load_data(dataset_path)
 
     # Create the database engine
     engine = create_engine('sqlite:///disaster_response.db')
