@@ -34,6 +34,12 @@ To run the code successfully, make sure we have these libraries installed in our
 
 4. Click the `PREVIEW` button to open the homepage
 
+<span>
+<img src="https://github.com/bernalp/disaster_response_pipeline/blob/main/sc1.png" width=400px height="280px" />
+<img src="https://github.com/bernalp/disaster_response_pipeline/blob/main/sc2.png" width=400px height="280px" />
+</span>
+
+
 ### Acknowledgement
 Thanks to Appen (formally Figure 8) for providing the dataset.
 
