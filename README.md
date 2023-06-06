@@ -6,6 +6,17 @@ The project basically building an interface where you can enter a disaster messa
 
 By using machine learning techniques, we can analyze and categorize the incoming messages quite fast. This means we can respond to disasters more efficiently and quickly. I'll guide you through the whole process of setting up the project. It's cover things like load the dataset, train the machine learning model, and run the web interface. Let's get started!
 
+### Libraries
+To run the code successfully, make sure we have these libraries installed in our Python environment:
+- pandas
+- sqlalchemy
+- re
+- nltk
+- string
+- numpy
+- joblib
+- sklearn
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
@@ -22,3 +33,8 @@ By using machine learning techniques, we can analyze and categorize the incoming
 3. Run your web app: `python run.py`
 
 4. Click the `PREVIEW` button to open the homepage
+
+### Acknowledgement
+Thanks to Appen (formally Figure 8) for providing the dataset.
+
+
