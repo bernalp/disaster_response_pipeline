@@ -1,5 +1,9 @@
-
-# Disaster Response Pipeline Project
+<div align="center">
+  <img src="https://s41256.pcdn.co/wp-content/uploads/2023/05/appen-blue-logo.svg" alt="Appen Logo" width="135" style="margin-right: 10px;">
+  <br><br>
+  <img src="https://www.udacity.com/images/svgs/udacity-tt-logo.svg" alt="Udacity Logo" width="150" style="margin-left: 10px;">
+  <h1 style="color: #006241; font-size: 20px;">Disaster Response Pipeline</h1>
+</div>
 
 ## Table of Contents
 
